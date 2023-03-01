@@ -1,0 +1,1052 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: #1B1A17;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1B1A17;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 32px;
+    color: #1B1A17;
+}
+
+h4 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+h5 {
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1A17;
+
+}
+
+h6 {
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+a {
+    color: #555248;
+}
+
+@media (max-width: 1280px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    // блок с весенне-летним предложением;
+
+    .left-block {
+        &__button {
+            a {
+                font-size: 12px;
+            }
+        }
+
+        &__text {
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
+
+    //блок с популярными моделями; разделение на левый, средний и правый блоки
+
+    .left-block {
+
+        &__Image {
+            img {
+                width: 80%;
+                margin-top: 53px;
+            }
+        }
+
+        &__more {
+            width: 230px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 35px;
+        }
+    }
+
+    .middle-block {
+
+        &__Image {
+            img {
+                width: 90%;
+                margin-top: 15px;
+            }
+        }
+
+        &__more {
+            width: 230px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 42px;
+        }
+    }
+
+    .right-block {
+
+        &__Image {
+            img {
+                width: 97%;
+                margin-top: 20px;
+            }
+        }
+
+        &__more {
+            width: 230px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3px;
+        }
+    }
+
+    //блок "подлинное качество"; разделение на правый и левый блоки
+
+    .left-side {
+
+        &__photo {
+            img {
+                width: 60%;
+            }
+        }
+    }
+
+    .right-side {
+        &__text {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .header__logo {
+        margin-right: -30px
+    }
+
+    .menu {
+        &__catalogue {
+            margin-right: -30px
+        }
+
+        &__promotions {
+            margin-right: -30px
+        }
+
+        &__delivery {
+            margin-right: -30px
+        }
+
+        &__contacts {
+            margin-right: -30px
+        }
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+
+    h6 {
+        font-size: 9px;
+    }
+
+    // блок с весенне-летним предложением;
+
+    .left-block {
+        &__button {
+            a {
+                font-size: 8px;
+            }
+        }
+
+        &__text {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+    //блок с популярными моделями; разделение на левый, средний и правый блоки
+
+    .title {
+
+        &__watch-all {
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .left-block {
+
+        &__Image {
+            img {
+                width: 80%;
+                margin-top: 53px;
+            }
+        }
+
+        &__more {
+            width: 230px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 35px;
+        }
+    }
+
+    .middle-block {
+
+        &__Image {
+            img {
+                width: 90%;
+                margin-top: 15px;
+            }
+        }
+
+        &__more {
+            width: 230px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 42px;
+        }
+    }
+
+    .right-block {
+
+        &__Image {
+            img {
+                width: 97%;
+                margin-top: 20px;
+            }
+        }
+
+        &__more {
+            width: 230px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3px;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .header__logo {
+        padding-right: 100px;
+        margin-bottom: -30px;
+        margin-right: 30px;
+    }
+
+    .header__icons {
+        position: absolute;
+        padding-left: 100px;
+    }
+
+    .header__menu {
+        padding-left: 40px;
+        padding-right: 40px;
+
+        a {
+            font-size: smaller;
+        }
+    }
+
+    .menu {
+        &__catalogue {
+            margin-right: -30px
+        }
+
+        &__promotions {
+            margin-right: -30px
+        }
+
+        &__delivery {
+            margin-right: -30px
+        }
+
+        &__contacts {
+            margin-right: -10px
+        }
+    }
+
+    .right-block {
+
+		&__image {
+            img {
+                padding-right: 100px;
+            }
+		}
+}
+
+}
+
+
+.body-content {
+    aspect-ratio: 100 / 29;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #FDFDFB;
+
+    &__logo {
+        display: flex;
+    }
+
+    &__logo-image {
+        padding-top: 34px;
+    }
+
+    &__company-name {
+        padding-top: 37px;
+        padding-bottom: 35px;
+        font-family: 'Playfair Display';
+        font-size: 12px;
+        padding-right: 40px;
+    }
+
+    &__menu {
+        display: flex;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__icons {
+        display: flex;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+.menu {
+    &__promotions {
+        padding-left: 65px;
+    }
+
+    &__delivery {
+        padding-left: 65px;
+    }
+
+    &__contacts {
+        padding-left: 65px;
+    }
+}
+
+.icons {
+
+    &__icon-1 {
+        padding-right: 23px;
+        padding-left: 40px;
+    }
+
+    &__icon-2 {
+        padding-right: 23px;
+        position: relative;
+    }
+
+    &__icon-2::after {
+        content: '1';
+        border: 1px solid #E6C8B4;
+        font-size: 8px;
+        text-align: center;
+        padding-top: 2px;
+        background: #E6C8B4;
+        border-radius: 50%;
+        position: absolute;
+        top: -6px;
+        right: 18px;
+        width: 13px;
+        height: 13px;
+    }
+}
+
+.body-content {
+
+    &__main-part-top {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #FDFDFB;
+    }
+}
+
+.main-part-top {
+
+    &__wrapper {
+        display: flex;
+        padding-top: 25px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        margin: auto;
+    }
+
+    &__left-block {
+        margin: auto;
+        padding-left: 20px;
+    }
+
+    &__right-block {
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+}
+
+.left-block {
+
+    &__title {
+        &__1 {
+            padding-bottom: 16px;
+        }
+
+        &__2 {
+            padding-bottom: 39px;
+            padding-top: 10px;
+        }
+    }
+
+    &__text {
+        padding-bottom: 64px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        max-width: 258px;
+    }
+
+    &__button {
+        max-width: 160px;
+        height: 64px;
+        margin-top: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        background: #444240;
+        text-align: center;
+        padding-top: 25px;
+
+        a {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.right-block {
+
+    &__image {
+        background-image: url(../img/spring_summer/bgd.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain;
+    }
+}
+
+.body-content {
+
+    &__main-part-middle {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+}
+
+
+.main-part-middle {
+    &__title {
+        margin-top: 79px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    &__blocks-wrapper {
+        display: flex;
+        text-align: center;
+        padding-top: 65px;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: space-evenly;
+    }
+
+    &__left-block {
+        background-image: url(../img/popular_models/Ellipse.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    &__middle-block {
+        flex-wrap: wrap;
+        background-image: url(../img/popular_models/Ellipse.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 40px;
+    }
+
+    &__right-block {
+        background-image: url(../img/popular_models/Ellipse.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+}
+
+.title {
+
+    &__watch-all {
+        position: absolute;
+        top: 150%;
+        right: 5%;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        color: #444240;
+        border-bottom: 1px solid #C4C0B6;
+        line-height: 30px;
+    }
+}
+
+
+.left-block {
+
+    &__Title {
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+    }
+
+    &__Price {
+        display: flex;
+        margin-left: 20px;
+    }
+
+
+
+    &__more {
+        img {
+            width: 50%;
+            padding-top: 19px;
+        }
+    }
+}
+
+.middle-block {
+
+    &__Title {
+        padding-bottom: 10px;
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__Price {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__Image {
+        padding-right: 15px;
+    }
+
+    &__more {
+        img {
+            width: 50%;
+            padding-top: 19px;
+        }
+    }
+}
+
+.right-block {
+
+    &__Title {
+        padding-bottom: 10px;
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__Price {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__Image {
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    &__more {
+        img {
+            width: 50%;
+            padding-top: 19px;
+        }
+    }
+}
+
+.body-content {
+
+    &__main-part-bottom {
+        margin-top: 100px;
+        background: #FDFDFB;
+        flex-wrap: wrap;
+        max-width: 100%;
+        background-image: url(../img/true_quality/design_1.png), url(../img/true_quality/design_2.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+}
+
+.main-part-bottom {
+
+
+    &__blocks-wrapper {
+        display: flex;
+        padding-top: 65px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    &__left-side {
+        background: #F7F5EF;
+        margin: auto;
+    }
+
+    &__right-side {
+        margin: auto;
+    }
+}
+
+.left-side {
+
+    &__photo {
+        text-align: center;
+        padding-top: 52px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    &__switcher {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 21px;
+    }
+}
+
+.switcher {
+
+    &__left-arrow {
+        padding-right: 20px;
+    }
+
+
+    &__right-arrow {
+        padding-left: 20px;
+    }
+}
+
+
+.right-side {
+
+    &__title {
+        margin-top: 40px;
+        background-color: rgba(247, 245, 239, 0.8);
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    &__text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        max-width: 376px;
+        background-color: rgba(247, 245, 239, 0.8);
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+
+    &__button {
+        max-width: 205px;
+        height: 64px;
+        margin-top: 71px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        background: #D4B098;
+        text-align: center;
+        padding-top: 25px;
+
+        a {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.body-content {
+
+    &__news {
+        display: flex;
+        margin-top: 81px;
+        flex-wrap: wrap;
+    }
+}
+
+
+.news {
+
+    &__blocks-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 65px;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    &__first-block {
+        flex-wrap: wrap;
+        margin: auto;
+        padding-right: 60px;
+        padding-left: 10px;
+    }
+
+    &__second-block {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+.first-block {
+
+    &__text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        color: #444240;
+        margin-top: 40px;
+        max-width: 376px;
+
+        a {
+            color: #262421;
+        }
+    }
+
+    &__social-media {
+        display: flex;
+        margin-top: 80px;
+    }
+}
+
+.social-media {
+
+    &__instagram {
+        margin-right: 18px;
+    }
+
+    &__facebook {
+        margin-right: 18px;
+        padding-top: 1px;
+    }
+
+    &__twitter {
+        padding-top: 4px;
+    }
+}
+
+.second-block {
+
+    &__watch-photos {
+        padding-top: 80px;
+    }
+}
+
+
+.body-content {
+
+    &__footer {
+        display: flex;
+        justify-content: space-evenly;
+        background: #444240;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: 90px;
+        flex-wrap: wrap;
+    }
+}
+
+.footer {
+
+    &__block-1 {
+        padding: auto;
+        padding-top: 20px;
+        a {
+            color: #FFFFFFBF;
+        }
+    }
+
+    &__block-2 {
+        padding: 30px;
+
+        a {
+            color: #FFFFFFBF;
+        }
+    }
+
+    &__block-3 {
+        padding: 30px;
+
+        a {
+            color: #FFFFFFBF;
+        }
+    }
+
+    &__block-4 {
+        padding: 30px;
+
+        a {
+            color: #FFFFFFBF;
+        }
+    }
+}
+
+.block-1 {
+
+    &__logo {
+        padding-bottom: 30px;
+    }
+
+    &__tel-number {
+        padding-bottom: 8px;
+    }
+
+    &__email {
+        padding-top: 8px;
+    }
+}
+
+.block-2 {
+
+    &__title {
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.07em;
+
+        a {
+            color: #FFFFFF;
+        }
+    }
+
+    &__our-shops {
+        padding-bottom: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__vacancies {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__certificates {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__reviews {
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+.block-3 {
+
+    &__title {
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.07em;
+
+        a {
+            color: #FFFFFF;
+        }
+    }
+
+    &__catalogue {
+        padding-bottom: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__order-info {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__FAQ {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__corporate {
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+.block-4 {
+
+    &__title {
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.07em;
+
+        a {
+            color: #FFFFFF;
+        }
+    }
+
+    &__delivery-methods {
+        padding-bottom: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__delivery-working-hours {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__guarantees-and-repairs {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    &__refund-and-compensation {
+        padding-top: 8px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
